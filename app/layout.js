@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "PixelAura",
   description: "Wallpaper App that brings your screen to life",
+  icons: {
+    icon: "/favicon.ico", // Path to your PNG favicon inside /public
+  },
 };
 
 export default function RootLayout({ children }) {

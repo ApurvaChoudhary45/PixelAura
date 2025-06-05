@@ -18,8 +18,8 @@ const HomePage = () => {
     })
   return (
     <>
-    <div className='flex justify-center items-center gap-20 py-70'>
-        <motion.div className='text-center text-9xl font-bold text-gray-800 dark:text-gray-200 z-10 relative' variants={container(0.5)} initial="initial" animate="animate">
+    <div className='flex justify-center items-center gap-20 py-70 flex-col md:flex-row'>
+        <motion.div className='text-center md:text-9xl font-bold text-gray-800 dark:text-gray-200 z-10 relative text-6xl' variants={container(0.5)} initial="initial" animate="animate">
             PixelAura
         </motion.div>
         <motion.div className='relative z-10' variants={container(1)} initial="initial" animate="animate">

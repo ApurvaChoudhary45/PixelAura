@@ -24,11 +24,11 @@ const Details = () => {
 
     return (
         <>
-            <div className='flex items-center justify-between mx-12 my-6 relative z-10 -mt-30'>
-                <motion.h1 className='text-3xl font-bold' variants={anim(0.3)} initial = "initial" animate = "animate">PixelAura</motion.h1>
+            <div className='md:flex items-center justify-between mx-12 my-6 relative z-10 md:-mt-30 flex flex-col md:flex-row gap-6'>
+                <motion.h1 className='md:text-3xl md:font-bold text-4xl font-semibold' variants={anim(0.3)} initial = "initial" animate = "animate">PixelAura</motion.h1>
                 
                 <motion.div className='flex items-center gap-4' variants={anim(0.3)} initial = "initial" animate = "animate">
-                    <button className='text-2xl border-2 bg-transparent rounded-full text-gray-800 px-2 hover:text-gray-300 cursor-pointer' onClick={() => signOut()}>Log out</button>
+                    <button className='md:text-2xl border-2 bg-transparent rounded-full text-gray-800 px-2 hover:text-gray-300 cursor-pointer text-2xl' onClick={() => signOut()}>Log out</button>
                     <label className="relative w-14 h-8 cursor-pointer">
                         {/* Hidden checkbox */}
                         <input type="checkbox" className="sr-only peer" onClick={()=>dispatch(goingDark())} />

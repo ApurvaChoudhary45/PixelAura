@@ -77,7 +77,7 @@ const Cards = () => {
       <div>
         <div className={`relative z-10 ${daaark ? 'bg-zinc-800' : 'bg-white'}`}>
           <h1 className={`text-center py-10 text-5xl font-bold ${daaark ? 'text-white bg-zinc-800' : 'text-gray-800'}`}>Top Wallpapers</h1>
-          <div className='grid grid-cols-3 gap-6 px-6 relative z-10'>
+          <div className='md:grid md:grid-cols-3 gap-6 px-6 relative z-10 grid grid-cols-1'>
             {loading ? (<Spinner />) : (Array.isArray(cardss) && cardss.length > 0 ? cardss.map(item => {
               const isLike = filling.includes(item.id)
               {

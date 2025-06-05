@@ -22,7 +22,7 @@ const Featured = () => {
       }
     })
     return (
-        <motion.div className="hidden md:flex items-center space-x-70 justify-center py-15" variants={anim(0.8)} initial = "initial" animate = "animate">
+        <motion.div className="md:flex items-center space-x-70 justify-center py-15 text-sm" variants={anim(0.8)} initial = "initial" animate = "animate">
             <div className="flex bg-gray-800 rounded-full px-4 py-2 space-x-6 relative z-10">
                 {tabs.map((tab) => (
                     <button
