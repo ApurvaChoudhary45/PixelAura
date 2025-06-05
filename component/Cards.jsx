@@ -115,7 +115,7 @@ const Cards = () => {
                             URL.revokeObjectURL(url);
                           });
                       }}>Download</button>
-                      <span className="text-gray/80">Photo by Unsplash</span>
+                      <span className="text-gray/80 text-xs">Photo by Unsplash</span>
                     </div>
                   </div>
                 </div>
