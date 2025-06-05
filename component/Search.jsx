@@ -23,8 +23,8 @@ const Search = () => {
     dispatch(searchQuery(search))
   }
   return (
-    <motion.div className='relative z-10' variants={anims(1.5)} initial = "initial" animate = "animate">
-      <div className="flex items-center w-3/4 mx-auto bg-transparent border border-gray-300 rounded-full px-4 py-2 shadow-sm -mt-50">
+    <motion.div className='relative z-10 py-60 md:py-5' variants={anims(1.5)} initial = "initial" animate = "animate">
+      <div className="flex items-center md:w-3/4 w-[90%] mx-auto bg-transparent border border-gray-300 rounded-full px-4 py-2 shadow-sm -mt-50">
   <input
     type="text"
     placeholder="Search wallpapers..."
