@@ -44,8 +44,8 @@ const Details = () => {
 
             </div>
             <div className='md:py-50 relative z-10'>
-                <motion.h1 className='text-center text-gray-800 text-6xl font-bold' variants={anim(1)} initial = "initial" animate = "animate">Welcome to PixelAura </motion.h1>
-                <motion.p className='text-center text-gray-800 text-3xl md:py-20 ' variants={anim(1.2)} initial = "initial" animate = "animate"> Your gateway to stunning, high-quality wallpapers.
+                <motion.h1 className='text-center md:text-gray-800 md:text-6xl md:font-bold py-10 text-4xl font-semibold' variants={anim(1)} initial = "initial" animate = "animate">Welcome to PixelAura </motion.h1>
+                <motion.p className='text-center md:text-gray-800 md:text-4xl md:py-10 text-gray-200 py-10 text-2xl' variants={anim(1.2)} initial = "initial" animate = "animate"> Your gateway to stunning, high-quality wallpapers.
                     Explore vibrant collections tailored to your style and give your screen a fresh new vibe.
                     Start browsing and let every pixel reflect your aura.</motion.p>
             </div>
